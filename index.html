@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Poppins:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="./assets/logo.png">
+  <title>Great Pro Test</title>
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <ul class="nav__links">
+        <li><a href="#" class="nav__link">Services</a></li>
+        <li><a href="#" class="nav__link">Projects</a></li>
+        <li><a href="#" class="nav__link">About</a></li>
+      </ul>
+    </nav>
+    <a class="nav__contact" href="#">Contact</a>
+    <p class="menu">Menu</p>
+  </header>
+  <div class="overlay">
+    <a class="close">&times;</a>
+    <div class="overlay__content">
+      <a href="#">Services</a>
+      <a href="#">Projects</a>
+      <a href="#">About</a>
+    </div>
+  </div>
+
+  <main class="main">
+    <div class="toggle-switch">
+      <input type="checkbox" id="billingToggle">
+      <label for="billingToggle" class="switch">
+        <div class="ball"></div>
+      </label>
+      <span class="monthly-price toggle-label">Monthly Billing</span>
+      <span class="yearly-price toggle-label" style="display: none;">Yearly Billing</span>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <h2 class="card__plan">Basic</h2>
+        <p class="monthly-price card__price">$7</p>
+        <span class="monthly-price card__price--text">per user, per month</span>
+        <p class="yearly-price card__price" style="display: none;">$64</p>
+        <span class="yearly-price card__price--text" style="display: none;">per user, per year</span>
+        <button class="card__button">Sign Up</button>
+        <ul class="card__list">
+          <li class="card__list--item">2 Social Profiles <span>✓</span></li>
+          <li class="card__list--item">2 Scheduled Posts Per Profile <span>✓</span></li>
+          <li class="card__list--item">Templates <span>✗</span></li>
+          <li class="card__list--item">Analytics <span>✗</span></li>
+          <li class="card__list--item">Email Support <span>✓</span></li>
+        </ul>
+      </article>
+      
+      <article class="card">
+        <h2 class="card__plan">Standard</h2>
+        <p class="monthly-price card__price">$14</p>
+        <span class="monthly-price card__price--text">per user, per month</span>
+        <p class="yearly-price card__price" style="display: none;">$168</p>
+        <span class="yearly-price card__price--text" style="display: none;">per user, per year</span>
+        <button class="card__button">Sign Up</button>
+        <ul class="card__list">
+          <li class="card__list--item">5 Social Profiles <span>✓</span></li>
+          <li class="card__list--item">5 Scheduled Posts Per Profile <span>✓</span></li>
+          <li class="card__list--item">200+ Templates <span>✓</span></li>
+          <li class="card__list--item">Advanced Analytics <span>✓</span></li>
+          <li class="card__list--item">24/7 Support <span>✓</span></li>
+        </ul>
+      </article>
+      
+      <article class="card">
+        <h2 class="card__plan">Premium</h2>
+        <p class="monthly-price card__price">$20</p>
+        <span class="monthly-price card__price--text">per user, per month</span>
+        <p class="yearly-price card__price" style="display: none;">$240</p>
+        <span class="yearly-price card__price--text" style="display: none;">per user, per year</span>
+        <button class="card__button">Sign Up</button>
+        <ul class="card__list">
+          <li class="card__list--item">Unlimited Social Profiles <span>✓</span></li>
+          <li class="card__list--item">Unlimited Scheduled Posts <span>✓</span></li>
+          <li class="card__list--item">500+ Templates <span>✓</span></li>
+          <li class="card__list--item">Advanced Analytics <span>✓</span></li>
+          <li class="card__list--item">Priority Support <span>✓</span></li>
+        </ul>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <nav class="footer__nav--links">
+      <ul class="footer__nav--links">
+        <li><a href="#" class="footer__nav--link">About</a></li>
+        <li><a href="#" class="footer__nav--link">Contacts</a></li>
+        <li><a href="#" class="footer__nav--link">Rights</a></li>
+      </ul>
+    </nav>
+    <a class="footer__contact" href="#">Contact</a>
+  </footer>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

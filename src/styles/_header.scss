@@ -1,0 +1,107 @@
+@import './variables';
+
+.header {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: $header-footer-main;
+
+  &__logo {
+    cursor: pointer;
+
+    &--img {
+      width: 200px;
+      height: 50px;
+    }
+  }
+}
+
+.nav__links .nav__link,
+.nav__contact,
+.menu,
+.overlay__content a {
+  font-weight: 500;
+  color: $grey;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__link{
+  transition: color 0.3s ease 0s;
+}
+
+.nav__link:hover {
+  color: $primary-color;
+}
+
+.nav__contact,
+.menu {
+  padding: 9px 25px;
+  background-color: $primary-color;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+
+.nav__contact:hover {
+  background-color: $primary-color;
+}
+
+.menu {
+  display: none;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: $header-footer-main;
+  overflow-x: hidden;
+  transition: width 0.5s ease 0s;
+}
+
+.overlay--active {
+  width: 100%;
+}
+
+.overlay__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay a {
+  padding: 15px;
+  font-size: 36px;
+  display: block;
+  transition: color 0.3s ease 0s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: $primary-color;
+}
+.overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: $grey;
+}
