@@ -15,7 +15,7 @@ This project is a responsive pricing comparison table that showcases different f
 
 ## Demo
 
-You can view a live demo of the project [here](https://vercel.com/new/success?developer-id=&external-id=&redirect-url=&branch=main&deploymentUrl=great-pro-test-task-1i3uic632-eugenesherepa.vercel.app&projectName=great-pro-test-task&s=https%3A%2F%2Fgithub.com%2FEugeneSherepa%2FGreatPro_testTask&gitOrgLimit=&hasTrialAvailable=1&totalProjects=1).
+You can view a live demo of the project [here](https://great-pro-test-task.vercel.app/).
 
 ## Features
 
